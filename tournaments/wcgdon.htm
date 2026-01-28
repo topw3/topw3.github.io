@@ -1,0 +1,4360 @@
+<html>
+<head>
+
+<meta name="GENERATOR" content="Tourney Master">
+
+<meta http-equiv="Content-Language" content="ru">
+
+<title>Чемпионат</title>
+
+<link rel="stylesheet" href="../css/tourneystyles.css" type="text/css">
+
+
+</head>
+
+<script language="javascript" src="../js/tourneyscript.js"></script>
+
+<script language="javascript">
+
+var wndopen = 0;
+
+var mouseready = 0;
+
+var mouseinwnd = 0;
+
+function ShowInfo(text, id, y)
+
+{
+
+	var cell = document.getElementById(id);
+
+	var wnd = document.getElementById('wnd');
+
+	wnd.style.left = cell.offsetLeft + cell.offsetWidth + 15;
+
+	wnd.style.top = document.getElementById('tourneytable').offsetTop + playerheight * (y + 2);
+
+	wnd.innerHTML = text;
+
+	wnd.style.visibility = 'visible';
+
+	wndopen = 1;
+
+	mouseready = 0;
+
+}
+
+function HideInfo(){document.getElementById('wnd').style.visibility = 'hidden';}
+
+</script>
+
+<div class="infownd" id="wnd" onmouseover="{mouseinwnd = 1;}" onmouseout="{mouseinwnd = 0;}"></div>
+
+<body onmousedown="{if (wndopen == 1 && mouseready == 1 && mouseinwnd == 0){HideInfo();wndopen = 0;mouseready = 0;}}" onmouseup="{mouseready = 1;}">
+
+<h1>WCG2007Donetsk_wc3</h1>
+
+<script language="javascript">
+
+document.write("<table id=tourneytable border=0 cellpadding=0 cellspacing=0 width=" + ((playerwidth + linewidth ) * 15 + playerwidth) + ">");
+
+</script>
+
+	<tr>
+
+		<td class="tableheader">1 / 32</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">1 / 16</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">1 / 8</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">1 / 4</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">1 / 2</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">Финал</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">Победитель</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">Финал</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader" colspan=3>1 / 2</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader" colspan=3>1 / 4</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader" colspan=3>1 / 8</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader" colspan=3>1 / 16</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">ToP)Gannibal.sw</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 ToP)Gannibal.sw def x3Frozen</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>ToP)Gannibal.sw def x3Frozen @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '21', 1);}" id="21">ToP)Gannibal.sw</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell">x3Frozen</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">x3Frozen</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 x3Frozen def Tk.CheD</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>x3Frozen def Tk.CheD @ 1-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '282', 2);}" id="282">x3Frozen</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 Ale)X( def ToP)Gannibal.sw</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>Ale)X( def ToP)Gannibal.sw @ 2-1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '43', 3);}" id="43">Ale)X(</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 top)exe def x3Frozen</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>top)exe def x3Frozen @ 1-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '263', 3);}" id="263">top)exe</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">Ale)X(</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">top)exe</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 Ale)X( def Tk.CheD</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>Ale)X( def Tk.CheD @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '25', 5);}" id="25">Ale)X(</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">Tk.CheD</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">Tk.CheD</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 top)exe def 6paT</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>top)exe def 6paT @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '246', 6);}" id="246">top)exe</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 WoLvEr1Ne def Ale)X(</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>WoLvEr1Ne def Ale)X( @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '67', 7);}" id="67">WoLvEr1Ne</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 top)exe def Ale)X(</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>top)exe def Ale)X( @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '227', 7);}" id="227">top)exe</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">JustFreeman</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">Ale)X(</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 WoLvEr1Ne def JustFreeman</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>WoLvEr1Ne def JustFreeman @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '29', 9);}" id="29">WoLvEr1Ne</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell">JustFreeman</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">WoLvEr1Ne</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 6paT def JustFreeman</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>6paT def JustFreeman @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2810', 10);}" id="2810">6paT</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 WoLvEr1Ne def pafosniychyvak</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>WoLvEr1Ne def pafosniychyvak @ 2-1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '411', 11);}" id="411">WoLvEr1Ne</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 6paT def AngsT</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>6paT def AngsT @ 1-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2611', 11);}" id="2611">6paT</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">pafosniychyvak</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">AngsT</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 pafosniychyvak def 6paT</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>pafosniychyvak def 6paT @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '213', 13);}" id="213">pafosniychyvak</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">6paT</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">6paT</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 1:0 top)exe def Fors)CaP(</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>top)exe def Fors)CaP( @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2014', 14);}" id="2014">top)exe</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 1:0 BB|CtraxoB def WoLvEr1Ne</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>BB|CtraxoB def WoLvEr1Ne @ 2-1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '815', 15);}" id="815">BB|CtraxoB</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 1:0 top)exe def N1ce</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>top)exe def N1ce @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1815', 15);}" id="1815">top)exe</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">fuck3r</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">N1ce</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 fuck3r def Fors)CaP(</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>fuck3r def Fors)CaP( @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '217', 17);}" id="217">fuck3r</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell">Fors)CaP(</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">Fors)CaP(</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 Fors)CaP( def LS.Shady</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>Fors)CaP( def LS.Shady @ 1-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2818', 18);}" id="2818">Fors)CaP(</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 fuck3r def solo[spider]</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>fuck3r def solo[spider] @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '419', 19);}" id="419">fuck3r</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 Fors)CaP( def Mar.tDeZ</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>Fors)CaP( def Mar.tDeZ @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2619', 19);}" id="2619">Fors)CaP(</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">solo[spider]</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">Mar.tDeZ</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 solo[spider] def LS.Shady</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>solo[spider] def LS.Shady @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '221', 21);}" id="221">solo[spider]</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">LS.Shady</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">LS.Shady</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 Fors)CaP( def AidTheFallen</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>Fors)CaP( def AidTheFallen @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2422', 22);}" id="2422">Fors)CaP(</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 BB|CtraxoB def fuck3r</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>BB|CtraxoB def fuck3r @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '623', 23);}" id="623">BB|CtraxoB</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 Fors)CaP( def fuck3r</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>Fors)CaP( def fuck3r @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2223', 23);}" id="2223">Fors)CaP(</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">Faint</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">fuck3r</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 Faint def p4</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>Faint def p4 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '225', 25);}" id="225">Faint</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell">p4</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">p4</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 p4 def p5</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>p4 def p5 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2826', 26);}" id="2826">p4</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 BB|CtraxoB def Faint</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>BB|CtraxoB def Faint @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '427', 27);}" id="427">BB|CtraxoB</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 AidTheFallen def p4</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>AidTheFallen def p4 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2627', 27);}" id="2627">AidTheFallen</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">BB|CtraxoB</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">AidTheFallen</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 BB|CtraxoB def p5</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>BB|CtraxoB def p5 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '229', 29);}" id="229">BB|CtraxoB</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/1] 1:0 nGt.Sonik def top)exe</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>nGt.Sonik def top)exe @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1229', 29);}" id="1229">nGt.Sonik</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">p5</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">p5</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="bigvlinecell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/2] 1:0 top)exe def WoLvEr1Ne</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>top)exe def WoLvEr1Ne @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1630', 30);}" id="1630">top)exe</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/2] 1:0 nGt.Sonik def BB|CtraxoB</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>nGt.Sonik def BB|CtraxoB @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1031', 31);}" id="1031">nGt.Sonik</td>
+
+		<td class="hlinecell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/1] 1:0 top)exe def nGt.Sonik</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>top)exe def nGt.Sonik @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1231', 31);}" id="1231">top)exe</td>
+
+		<td class="hlinecell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/2] 1:0 top)exe def BB|CtraxoB</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>top)exe def BB|CtraxoB @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1431', 31);}" id="1431">top)exe</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">N1ce</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">BB|CtraxoB</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 N1ce def p11</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>N1ce def p11 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '233', 33);}" id="233">N1ce</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell">p11</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">p11</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 p11 def p2</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>p11 def p2 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2834', 34);}" id="2834">p11</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 N1ce def AidTheFallen</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>N1ce def AidTheFallen @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '435', 35);}" id="435">N1ce</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 Faint def p11</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>Faint def p11 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2635', 35);}" id="2635">Faint</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">AidTheFallen</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">Faint</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 AidTheFallen def p2</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>AidTheFallen def p2 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '237', 37);}" id="237">AidTheFallen</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">p2</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">p2</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 solo[spider] def Faint</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>solo[spider] def Faint @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2438', 38);}" id="2438">solo[spider]</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 N1ce def Frozen</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>N1ce def Frozen @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '639', 39);}" id="639">N1ce</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 solo[spider] def Frozen</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>solo[spider] def Frozen @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2239', 39);}" id="2239">solo[spider]</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">Frozen</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">Frozen</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 Frozen def p6</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>Frozen def p6 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '241', 41);}" id="241">Frozen</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell">p6</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">p6</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 p6 def p7</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>p6 def p7 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2842', 42);}" id="2842">p6</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 Frozen def Mar.tDeZ</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>Frozen def Mar.tDeZ @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '443', 43);}" id="443">Frozen</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 solo[spider] def p6</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>solo[spider] def p6 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2643', 43);}" id="2643">solo[spider]</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">Mar.tDeZ</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">solo[spider]</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 Mar.tDeZ def p7</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>Mar.tDeZ def p7 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '245', 45);}" id="245">Mar.tDeZ</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">p7</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">p7</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 1:0 nGt.happo def solo[spider]</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>nGt.happo def solo[spider] @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2046', 46);}" id="2046">nGt.happo</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 1:0 nGt.Sonik def N1ce</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>nGt.Sonik def N1ce @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '847', 47);}" id="847">nGt.Sonik</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 1:0 WoLvEr1Ne def nGt.happo</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>WoLvEr1Ne def nGt.happo @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1847', 47);}" id="1847">WoLvEr1Ne</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">AngsT</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">WoLvEr1Ne</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 AngsT def p12</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>AngsT def p12 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '249', 49);}" id="249">AngsT</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell">p12</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">p12</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 p12 def p3</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>p12 def p3 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2850', 50);}" id="2850">p12</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 nGt.happo def AngsT</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>nGt.happo def AngsT @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '451', 51);}" id="451">nGt.happo</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 pafosniychyvak def p12</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>pafosniychyvak def p12 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2651', 51);}" id="2651">pafosniychyvak</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">nGt.happo</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">pafosniychyvak</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 nGt.happo def p3</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>nGt.happo def p3 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '253', 53);}" id="253">nGt.happo</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">p3</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">p3</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 pafosniychyvak def ToP)Gannibal.sw</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>pafosniychyvak def ToP)Gannibal.sw @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2454', 54);}" id="2454">pafosniychyvak</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 nGt.Sonik def nGt.happo</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>nGt.Sonik def nGt.happo @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '655', 55);}" id="655">nGt.Sonik</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 nGt.happo def pafosniychyvak</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>nGt.happo def pafosniychyvak @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2255', 55);}" id="2255">nGt.happo</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">nGt.Sonik</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">nGt.happo</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 nGt.Sonik def p1</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>nGt.Sonik def p1 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '257', 57);}" id="257">nGt.Sonik</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell">p1</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">p1</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 p1 def p8</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>p1 def p8 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2858', 58);}" id="2858">p1</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 nGt.Sonik def top)exe</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>nGt.Sonik def top)exe @ 2-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '459', 59);}" id="459">nGt.Sonik</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 1:0 ToP)Gannibal.sw def p1</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>ToP)Gannibal.sw def p1 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2659', 59);}" id="2659">ToP)Gannibal.sw</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">top)exe</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">ToP)Gannibal.sw</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/32] 1:0 top)exe def p8</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>top)exe def p8 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '261', 61);}" id="261">top)exe</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">p8</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">p8</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+</table>
+
+<br>
+
+<div class="infownd" id="rightvoidwnd">
+
+<script language="javascript">
+
+var rightvoid = document.getElementById('rightvoidwnd');
+
+var tourneytable = document.getElementById('tourneytable');
+
+rightvoid.style.left = tourneytable.offsetLeft + tourneytable.offsetWidth + 5;
+
+rightvoid.style.top = tourneytable.offsetTop + tourneytable.offsetHeight + 200;
+
+</script>
+
+</div>
+
+<br />
+
+</body>
+</html>

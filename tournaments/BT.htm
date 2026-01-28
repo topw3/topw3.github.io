@@ -1,0 +1,789 @@
+<html>
+<head>
+<meta name="GENERATOR" content="Tourney Master">
+
+<meta http-equiv="Content-Language" content="ru">
+
+<title>Чемпионат</title>
+
+    <link rel="stylesheet" href="../css/tourneystyles.css" type="text/css">
+
+</head>
+
+<script language="javascript" src="../js/tourneyscript.js"></script>
+
+<script language="javascript">
+
+var wndopen = 0;
+
+var mouseready = 0;
+
+var mouseinwnd = 0;
+
+function ShowInfo(text, id, y)
+
+{
+
+	var cell = document.getElementById(id);
+
+	var wnd = document.getElementById('wnd');
+
+	wnd.style.left = cell.offsetLeft + cell.offsetWidth + 15;
+
+	wnd.style.top = document.getElementById('tourneytable').offsetTop + playerheight * (y + 2);
+
+	wnd.innerHTML = text;
+
+	wnd.style.visibility = 'visible';
+
+	wndopen = 1;
+
+	mouseready = 0;
+
+}
+
+function HideInfo(){document.getElementById('wnd').style.visibility = 'hidden';}
+
+</script>
+
+<div class="infownd" id="wnd" onmouseover="{mouseinwnd = 1;}" onmouseout="{mouseinwnd = 0;}"></div>
+
+<body onmousedown="{if (wndopen == 1 && mouseready == 1 && mouseinwnd == 0){HideInfo();wndopen = 0;mouseready = 0;}}" onmouseup="{mouseready = 1;}">
+
+<h1>BToWIII</h1>
+
+<script language="javascript">
+
+document.write("<table id=tourneytable border=0 cellpadding=0 cellspacing=0 width=" + ((playerwidth + linewidth ) * 9 + playerwidth) + ">");
+
+</script>
+
+	<tr>
+
+		<td class="tableheader">1 / 8</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">1 / 4</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">1 / 2</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">Финал</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">Победитель</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">Финал</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader" colspan=3>1 / 2</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader" colspan=3>1 / 4</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">nGt.INGO</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 nGt.INGO def ToP</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>nGt.INGO def ToP @ 4-0</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '21', 1);}" id="21">nGt.INGO</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell">ToP</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">ToP</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 1:0 FuDeS def ToP</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>FuDeS def ToP @ 3-1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '162', 2);}" id="162">FuDeS</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 1:0 Crimea ProTeam def nGt.INGO</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>Crimea ProTeam def nGt.INGO @ 3-1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '43', 3);}" id="43">Crimea ProTeam</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 1:0 C-club def FuDeS</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>C-club def FuDeS @ 3-1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '143', 3);}" id="143">C-club</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">Crimea ProTeam</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">C-club</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 Crimea ProTeam def FuDeS</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>Crimea ProTeam def FuDeS @ 3-1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '25', 5);}" id="25">Crimea ProTeam</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="playercell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">FuDeS</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">FuDeS</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="bigvlinecell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/2] 1:0 C-club def nGt.INGO</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>C-club def nGt.INGO @ 3-1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '126', 6);}" id="126">C-club</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/2] 1:0 KerchNET def Crimea ProTeam</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>KerchNET def Crimea ProTeam @ 4-1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '67', 7);}" id="67">KerchNET</td>
+
+		<td class="hlinecell">&nbsp;</td>
+
+		<td class="playercell">&nbsp;</td>
+
+		<td class="hlinecell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/2] 1:0 C-club def Crimea ProTeam</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>C-club def Crimea ProTeam @ 3-1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '107', 7);}" id="107">C-club</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">KerchNET</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">Crimea ProTeam</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 KerchNET def p2</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>KerchNET def p2 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '29', 9);}" id="29">KerchNET</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell">p2</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">p2</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 1:0 p2 def p1</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>p2 def p1 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1610', 10);}" id="1610">p2</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 1:0 KerchNET def C-club</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>KerchNET def C-club @ 3-1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '411', 11);}" id="411">KerchNET</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 1:0 nGt.INGO def p2</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>nGt.INGO def p2 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1411', 11);}" id="1411">nGt.INGO</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">C-club</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">nGt.INGO</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 1:0 C-club def p1</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>C-club def p1 @ 1</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '213', 13);}" id="213">C-club</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">p1</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">p1</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+</table>
+
+<br>
+
+<div class="infownd" id="rightvoidwnd">
+
+<script language="javascript">
+
+var rightvoid = document.getElementById('rightvoidwnd');
+
+var tourneytable = document.getElementById('tourneytable');
+
+rightvoid.style.left = tourneytable.offsetLeft + tourneytable.offsetWidth + 5;
+
+rightvoid.style.top = tourneytable.offsetTop + tourneytable.offsetHeight + 200;
+
+</script>
+
+</div>
+
+<br />
+</body>
+</html>

@@ -1,0 +1,1854 @@
+<html>
+<head>
+
+<meta name="GENERATOR" content="Tourney Master">
+
+<meta http-equiv="Content-Language" content="ru">
+
+<title>Чемпионат</title>
+
+<link rel="stylesheet" href="../css/tourneystyles.css" type="text/css">
+
+</head>
+
+<script language="javascript" src="../js/tourneyscript.js"></script>
+
+<script language="javascript">
+
+var wndopen = 0;
+
+var mouseready = 0;
+
+var mouseinwnd = 0;
+
+function ShowInfo(text, id, y)
+
+{
+
+	var cell = document.getElementById(id);
+
+	var wnd = document.getElementById('wnd');
+
+	wnd.style.left = cell.offsetLeft + cell.offsetWidth + 15;
+
+	wnd.style.top = document.getElementById('tourneytable').offsetTop + playerheight * (y + 2);
+
+	wnd.innerHTML = text;
+
+	wnd.style.visibility = 'visible';
+
+	wndopen = 1;
+
+	mouseready = 0;
+
+}
+
+function HideInfo(){document.getElementById('wnd').style.visibility = 'hidden';}
+
+</script>
+
+<div class="infownd" id="wnd" onmouseover="{mouseinwnd = 1;}" onmouseout="{mouseinwnd = 0;}"></div>
+
+<body onmousedown="{if (wndopen == 1 && mouseready == 1 && mouseinwnd == 0){HideInfo();wndopen = 0;mouseready = 0;}}" onmouseup="{mouseready = 1;}">
+
+<h1></h1>
+
+<script language="javascript">
+
+document.write("<table id=tourneytable border=0 cellpadding=0 cellspacing=0 width=" + ((playerwidth + linewidth ) * 12 + playerwidth) + ">");
+
+</script>
+
+	<tr>
+
+		<td class="tableheader">1 / 16</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">1 / 8</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">1 / 4</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">1 / 2</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">Финал</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">Победитель</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader">Финал</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader" colspan=3>1 / 2</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader" colspan=3>1 / 4</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="tableheader" colspan=3>1 / 8</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">ToPDIABlo</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 2:1 zero def ToPDIABlo</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>ToPDIABlo def zero @ TM</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>zero def ToPDIABlo @ TS</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>zero def ToPDIABlo @ EI</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '21', 1);}" id="21">zero</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell">ToPDIABlo</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">zero</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 2:0 ToPDIABlo def orc</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>ToPDIABlo def orc @ LT</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>ToPDIABlo def orc @ TM</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '222', 2);}" id="222">ToPDIABlo</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 2:1 topexe def zero</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>topexe def zero @ TM</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>zero def topexe @ TS</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>topexe def zero @ EI</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '43', 3);}" id="43">topexe</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 2:0 ToPDIABlo def dolphin</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>ToPDIABlo def dolphin @ TS</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>ToPDIABlo def dolphin @ EI</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '203', 3);}" id="203">ToPDIABlo</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">orc</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">dolphin</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 2:0 topexe def orc</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>topexe def orc @ TM</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>topexe def orc @ TR</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '25', 5);}" id="25">topexe</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">orc</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">topexe</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 2:0 ToPDIABlo def adovaov</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>ToPDIABlo def adovaov @ TM</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>ToPDIABlo def adovaov @ TS</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '186', 6);}" id="186">ToPDIABlo</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 2:1 topexe def fist</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>fist def topexe @ TR</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>topexe def fist @ TM</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>topexe def fist @ LT</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '67', 7);}" id="67">topexe</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 2:0 fist def ToPDIABlo</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>fist def ToPDIABlo @ TM</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>fist def ToPDIABlo @ EI</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '167', 7);}" id="167">fist</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">toprex</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">fist</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/16] 2:0 toprex def skit</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>toprex def skit @ EI</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>toprex def skit @ LT</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '29', 9);}" id="29">toprex</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell">skit</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="losercell">skit</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell">skit</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 2:1 fist def toprex</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>toprex def fist @ TM</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>fist def toprex @ TS</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>fist def toprex @ TR</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '411', 11);}" id="411">fist</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 2:0 adovaov def skit</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>adovaov def skit @ LT</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>adovaov def skit @ EI</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '2011', 11);}" id="2011">adovaov</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="playercell">&nbsp;</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">adovaov</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell">fist</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="playercell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">fist</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/2] 2:0 zero def fist</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>zero def fist @ TR</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>zero def fist @ TM</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1414', 14);}" id="1414">zero</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/2] 2:0 imbba-elf def topexe</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>imbba-elf def topexe @ TM</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>imbba-elf def topexe @ TR</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '815', 15);}" id="815">imbba-elf</td>
+
+		<td class="hlinecell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/1] 2:0 imbba-elf def topexe</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>imbba-elf def topexe @ LT</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>imbba-elf def topexe @ EI</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1015', 15);}" id="1015">imbba-elf</td>
+
+		<td class="hlinecell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/2] 2:1 topexe def zero</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>topexe def zero @ TM</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>zero def topexe @ TS</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>topexe def zero @ EI</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1215', 15);}" id="1215">topexe</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="playercell">&nbsp;</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">topexe</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell">adovaov</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="playercell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">adovaov</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="playercell">&nbsp;</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 2:0 imbba-elf def adovaov</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>imbba-elf def adovaov @ EI</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>imbba-elf def adovaov @ LT</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '419', 19);}" id="419">imbba-elf</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="losercell">toprex</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="playercell">&nbsp;</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">toprex</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell">imbba-elf</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="playercell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">imbba-elf</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 2:0 zero def toprex</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>zero def toprex @ EI</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>zero def toprex @ LT</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1822', 22);}" id="1822">zero</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 2:0 imbba-elf def topcheray</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>imbba-elf def topcheray @ TM</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>imbba-elf def topcheray @ TS</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '623', 23);}" id="623">imbba-elf</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/4] 2:0 zero def topcheray</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>zero def topcheray @ TS</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>zero def topcheray @ EI</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '1623', 23);}" id="1623">zero</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="playercell">&nbsp;</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="losercell">topcheray</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell">dolphin</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="playercell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">dolphin</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="tlcornercell">&nbsp;</td>
+
+		<td class="playercell">&nbsp;</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="losercell" onmousedown="{ShowInfo('<center><table cellpadding=5 width=100%><tr><td><center><b>[1/8] 2:0 topcheray def dolphin</b></center><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>topcheray def dolphin @ TS</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p><p align=center><table border=1 cellpadding=3 cellspacing=0 width=100% bordercolorlight=#000000 bordercolordark=#BBBBBB bordercolor=#FFFFFF><tr><td><center>topcheray def dolphin @ TM</center></td></tr><tr><td><center>&nbsp;</center></td></tr></table></p></td></tr></table></center>', '427', 27);}" id="427">topcheray</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">zero</td>
+
+		<td class="rcentercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="playercell">&nbsp;</td>
+
+		<td class="trcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="winnercell">zero</td>
+
+		<td class="rvlinecell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="lcentercell">&nbsp;</td>
+
+		<td class="winnercell">topcheray</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="blcornercell">&nbsp;</td>
+
+		<td class="playercell">&nbsp;</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="winnercell">topcheray</td>
+
+		<td class="brcornercell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+		<td class="narrowvoidcell">&nbsp;</td>
+
+		<td class="voidcell">&nbsp;</td>
+
+	</tr>
+
+</table>
+
+<br>
+
+<div class="infownd" id="rightvoidwnd">
+
+<script language="javascript">
+
+var rightvoid = document.getElementById('rightvoidwnd');
+
+var tourneytable = document.getElementById('tourneytable');
+
+rightvoid.style.left = tourneytable.offsetLeft + tourneytable.offsetWidth + 5;
+
+rightvoid.style.top = tourneytable.offsetTop + tourneytable.offsetHeight + 200;
+
+</script>
+
+</div>
+
+</body>
+
+</html>
