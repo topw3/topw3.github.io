@@ -761,21 +761,25 @@ A.rappelsbl:hover {
     border-color: rgb(128, 128, 128);
 }
 
-.demo-files-table {
+.demo-files-table-wr {
     width: 230px;
     float: left;
 }
 
-.demo-files-table-2006 {
+.demo-files-table-2006-wr {
     margin-left: 15px;
 }
 
-.files-top-wr {
-    margin-bottom: 30px;
+.tourney-maps-wr {
+    margin-top: 30px;
 }
 
 .old-new-main-page-wr {
     position: relative;
     top: -40px;
     right: 0;
+}
+
+.menu_all li {
+    margin-bottom: 2px;
 }
