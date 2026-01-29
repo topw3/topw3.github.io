@@ -783,3 +783,9 @@ A.rappelsbl:hover {
 .menu_all li {
     margin-bottom: 2px;
 }
+
+.cnt-image {
+    height: 12px;
+    position: relative;
+    top: 3px;
+}
