@@ -613,6 +613,10 @@ A.rappelsbl:hover {
     margin-bottom: 10px;
 }
 
+.padding-top-10 {
+    padding-top: 10px;
+}
+
 .center-text {
     text-align: center;
 }
@@ -721,6 +725,10 @@ A.rappelsbl:hover {
     text-align: center;
 }
 
+.text-align-justify {
+    text-align: justify;
+}
+
 
 .contenu_page {
     font-size: 14px;
@@ -800,4 +808,8 @@ A.rappelsbl:hover {
     height: 12px;
     position: relative;
     top: 3px;
+}
+
+.margin-right-7 {
+    margin-right: 10px;
 }
