@@ -605,6 +605,10 @@ A.rappelsbl:hover {
     width: 50%;
 }
 
+.margin-top-30 {
+    margin-top: 30px;
+}
+
 .margin-bot-10 {
     margin-bottom: 10px;
 }
@@ -615,6 +619,10 @@ A.rappelsbl:hover {
 
 .font-italic {
     font-style: italic;
+}
+
+.font-bold {
+    font-weight: bold;
 }
 
 .font-size-12 {
@@ -715,9 +723,12 @@ A.rappelsbl:hover {
 
 
 .contenu_page {
-    font-size: 12px;
+    font-size: 14px;
 }
 
+.integration_centre {
+    font-size: 14px;
+}
 
 .main-banner {
     height: 45px;
@@ -746,6 +757,7 @@ A.rappelsbl:hover {
 
 .contenu_page {
     padding-top: 60px;
+    color: #000000;
 }
 
 .old-style-table {
